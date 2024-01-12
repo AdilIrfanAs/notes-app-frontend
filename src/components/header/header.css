@@ -1,0 +1,16 @@
+#header{padding:10px 0;background:rgba(255,255,255,0.3);box-shadow:0 5px 5px rgba(0,0,0,0.1)}
+#header .logo{width:100px;}
+#header .logo .logo-dark{display:none;}
+#header .mode-switcher,#header .btn-logout{width:38px;height:38px;border:1px solid #1568ba;border-radius:4px;font-size:20px;color:#1568ba;}
+#header .mode-switcher:hover,#header .btn-logout:hover{border-color:#1568ba;background:#1568ba;color:#fff;}
+#header .mode-switcher .light-icon{display:none;}
+#header .loggeduser-name{max-width:160px;height:24px;-webkit-line-clamp:1;display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;text-overflow: ellipsis;color:#1568ba;}
+/* Dark Mode Styles */
+.dark-mode #header .logo .logo-dark{display:block;}
+.dark-mode #header .logo .logo-light{display:none;}
+.dark-mode #header .mode-switcher,.dark-mode #header .btn-logout{color:#fff;border-color:#fff;}
+.dark-mode #header .mode-switcher:hover,.dark-mode #header .btn-logout:hover{background:#fff;color:#1568ba;}
+.dark-mode #header .mode-switcher .dark-icon{display:none;}
+.dark-mode #header .mode-switcher .light-icon{display:block;}
+.dark-mode #header{background:#38444d;}
+.dark-mode #header .loggeduser-name{color:#fff;}

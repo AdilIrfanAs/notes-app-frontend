@@ -1,0 +1,13 @@
+# dependencies
+/node_modules
+
+# production
+/build
+
+# dependency logger
+package-lock.json
+
+# dotenv environment variable files
+.env
+
+.DS_Store
